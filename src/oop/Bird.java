@@ -7,6 +7,8 @@ public class Bird extends Animal{
         super(name, colour, legs, hasTail);
         this.wings = wings;
     }
+
+
     public void fly(){
         System.out.println(this.getName()+"is flying");
     }
